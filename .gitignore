@@ -1,0 +1,21 @@
+# Xcode
+DerivedData/
+.build/
+xcuserdata/
+*.xcuserstate
+
+# SwiftPM
+.packages/
+.swiftpm/
+
+# CocoaPods (если используете)
+Pods/
+Podfile.lock
+
+# Carthage (если используете)
+Carthage/Build/
+
+# Fastlane (если используете)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots

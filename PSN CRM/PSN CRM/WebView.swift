@@ -251,7 +251,7 @@ struct WebView: UIViewRepresentable {
 
             // External app schemes and App Store links
             let externalSchemes: Set<String> = [
-                "tel", "mailto", "sms", "tg", "viber", "whatsapp", "fb", "facebook", "instagram", "twitter", "itms-apps", "itms-services"
+                "tel", "mailto", "sms", "tg", "viber", "whatsapp", "fb", "facebook", "instagram", "twitter", "itms-apps"
             ]
 
             if let scheme = scheme, externalSchemes.contains(scheme) {
